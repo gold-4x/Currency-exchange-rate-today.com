@@ -24,3 +24,8 @@ function offLine(){
   ul.classList.remove('hide');
   reload.classList.remove('hide');
 }
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-117325412-1');
+	
